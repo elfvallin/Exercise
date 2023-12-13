@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+    padding-top: 15px;
+    /* border: 2px black solid; */
+}
+.aside{
+    width: 170px;
+    list-style: none;
+    padding-left: 8px;
+    border-right: 2px solid green;
+    cursor: pointer;
+    z-index: 999;
+}
+.sidebar li{
+    list-style-type: none;
+}
+.main{
+    margin-left: 8px;
+}
+.photo{
+    display: block;
+    border: 2px dotted green;
+    padding: 0 5px 10px;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+}
+.photo li{
+    list-style: none;
+}
+
+.footer{
+    text-align: center;
+}
